@@ -33,5 +33,5 @@ function removeElementFromBeginningOfArray(array, element){
 }
 
 function destructivelyRemoveElementFromEndOfArray(array, element){
-return array.unshift(element)
+return array.shift(-1)
 }
